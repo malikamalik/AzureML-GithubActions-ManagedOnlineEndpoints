@@ -7,7 +7,7 @@ command: >-
 inputs:
   credit_dataset:
     dataset: azureml:credit-dataset:1
-environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu
+environment: azureml:AzureML-sklearn-0.24-ubuntu18.04-py37-cpu:9
 compute: azureml:cpu-cluster
 display_name: risk-model-job
 experiment_name: risk-model
